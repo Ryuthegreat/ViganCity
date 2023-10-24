@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Garamond&display=swap');
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: rgb(221,190,165);
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  color: rgb(0,0,0);
+  text-align: center;
+  font-family: 'Garamond', serif;
+  font-size: 70px;
+  font-weight: bold;
+  background-color: rgb(225,204,183);
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(193, 177, 166);
+  text-align: center; /* Center the text within the topnav */
+}
+
+/* Style the topnav links */
+.topnav a {
+  display: inline-block;
+  color: rgb(236,230,227);
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: center;
+  width: 100%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: rgb(221,190,165);
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: rgb(238,224,202);
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.fakeimg img {
+  display: inline-block;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: rgb(225,204,183);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.Helvetica {
+font-size: 22px;
+font-family: 'Garamond', serif;
+text-align: center;
+}
+
+.Helvetica2 {
+font-family: 'Garamond', serif;
+font-size: 18px;
+text-align: center;
+}
+
+.text1 {
+  background-color: rgb(227, 207, 177);
+  padding: 20px;
+  font-size: 18px;
+  font-family: 'Libre Baskerville', 'serif';
+}
+
+.text2 {
+  background-color: rgb(227, 207, 177);
+  padding: 20px;
+  font-size: 20px;
+  font-family: 'Libre Baskerville', 'serif';
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(225,204,183);
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+FOOD OF VIGAN CITY
+</div>
+
+<div class="topnav">
+  <a href="#" style="float:center">HISTORY OF VIGAN CITY</a>
+  <a href="#" style="float:center">FOOD OF VIGAN CITY</a>
+  <a href="#" style="float:center">DANCES OF VIGAN CITY</a>
+  <a href="#" style="float:center">CULTURE OF VIGAN CITY</a> 
+  <a href="#" style="float:center">POPULATION OF VIGAN CITY</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+	  <div class="Helvetica">
+      <h2>Savor the Flavors of Vigan</h2>
+	  </div>
+      <div class="fakeimg">
+	  <img src="https://imgur.com/aK9C8ND.jpg" alt="Girl in a jacket" width="800" height="450">
+	  </div>
+	  <div class="text2">
+
+Vigan City is not only famous for its historical and cultural heritage but also for its unique and delicious local cuisine. The city's food is a reflection of its rich culinary traditions and heritage. Here are some of the must-try dishes and food items in Vigan City:
+<br><br>
+<b>Vigan Longganisa:</b>
+<br>
+Vigan is renowned for its distinct type of longganisa, which is a Filipino sausage. Vigan longganisa is characterized by its garlicky flavor and slightly sweet taste. It's often served with rice and eggs and is a staple for breakfast in the region.
+<br><br>
+<b>Vigan Empanada:</b>
+<br>
+Vigan empanadas are deep-fried pastries filled with a mixture of ground pork, vegetables, and sometimes green papaya. They are known for their bright orange color, which is achieved by using annatto seeds in the dough. A dipping sauce made from vinegar, garlic, and onions complements the empanadas perfectly.
+<br><br>
+
+<b>Sinanglao:</b>
+<br>
+Sinanglao is a traditional Ilocano soup made with beef or carabao meat, bile, and a variety of spices. It has a rich and savory flavor and is often enjoyed with a side of fish sauce and calamansi (a type of citrus).
+<br><br>
+
+<b>Pakbet: </b>
+<br>
+Pakbet, short for "Pinakbet," is a popular Ilocano vegetable dish made with a mix of locally grown vegetables such as bitter melon, okra, eggplant, and string beans, cooked with shrimp paste (bagoong) for a unique umami flavor.
+<br><br>
+<b>Bagnet: </b>
+<br>
+Bagnet is a crispy deep-fried pork belly dish. It's similar to lechon kawali but typically fried to a much crispier consistency. The crunchy skin and tender meat make it a favorite among locals and tourists alike.
+<br><br>
+<b>Poqui-Poqui: </b>
+<br>
+Poqui-poqui is a dish made from roasted and mashed eggplants cooked with tomatoes, onions, and beaten eggs. It's a vegetarian dish with a smoky and flavorful taste.
+<br><br>
+<b>Bibingka: </b>
+<br>
+Bibingka is a traditional Filipino rice cake that's often served in Vigan. It's made from rice flour, coconut milk, and sometimes cheese, and it's typically cooked in a clay pot or banana leaves over hot coals.
+<br><br>
+<b> Miki: </b>
+<br>
+Vigan miki is a type of noodle soup with a savory broth. It typically includes egg noodles, vegetables, and a flavorful broth. It's a comforting dish enjoyed by many in Vigan.
+<br><br>
+<b> Tinubong: </b>
+<br>
+Tinubong is a sticky rice cake made from glutinous rice, coconut milk, and sugar, often cooked inside bamboo tubes. It has a unique presentation and a sweet, coconut flavor.
+<br><br>
+When visiting Vigan, make sure to explore the local food markets, eateries, and restaurants to savor the unique and delicious flavors of the city. Vigan's cuisine is not only a treat for your taste buds but also a window into the rich culinary heritage of the Philippines.
+
+
+	</div>
+ </div>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="footer">
+FOOTER
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
